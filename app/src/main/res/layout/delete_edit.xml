@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imgedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_edit"
+        android:tint="@color/colorAccent"/>
+    />
+    <!--<ImageButton android:id="@+id/buttdelete"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="DELETE"
+        android:src="@drawable/ic_action_delete"
+        android:tint="@color/colorAccent"
+
+        />-->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <ImageView
+        android:id="@+id/imgdelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_delete"
+        android:tint="@color/colorAccent"/>
+
+</LinearLayout>
